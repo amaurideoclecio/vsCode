@@ -111,6 +111,7 @@ Method MethodName() As %Status
     ///
     Set ^ABA.AMAURID.VSCODE=$ZDATETIME($H,4)
     Set ^ABA.AMAURID.VSCODE(1)=$ZDATETIME($H,4)
+    Set ^ABA.AMAURID.VSCODE(2)=$ZDATETIME($H,4)
     Return sc
 }
 
